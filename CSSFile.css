@@ -13,22 +13,3 @@ p{
 h1{
 	margin-left: 20px;
 }
-.typing{
-	float: right;
-	margin-right: 20px;
-}
-.person{
-	background-color: white;
-	border: solid black;
-	border-radius: 5px;
-	width: 700px;
-	height: 500px;
-	margin-bottom: 20px;
-	margin-right: 10px;
-	display: inline-block;
-}
-img{
-	width: 400px;
-	float: left;
-	padding-right: 10px;
-}
