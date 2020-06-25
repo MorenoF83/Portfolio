@@ -1,0 +1,73 @@
+<html>
+    <title>CPS530 Lab 07</title>
+    <style>
+        #headPic{
+          position: absolute;
+          top: 190px;
+          left: 600px;
+        }
+        #eyesPic{
+          position: absolute;
+          top: 250px;
+          left: 700px;
+          max-width: 10%;
+        }
+        #nosePic{
+          position: absolute;
+          top: 350px;
+          left: 700px;
+          max-width: 10%;
+        }
+        #mouthPic{
+          position: absolute;
+          top: 430px;
+          left: 700px;
+          max-width: 10%;
+        }
+        #hatPic{
+          position: absolute;
+          top: 150px;
+          left: 700px;
+          max-width: 10%;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#headPic").hide();
+        $("#eyesPic").hide();
+        $("#nosePic").hide();
+        $("#mouthPic").hide();
+        $("#hatPic").hide();
+      $("#head").click(function(){
+        $("#headPic").show();
+      });
+      $("#eyes").click(function(){
+        $("#eyesPic").show();
+      });
+      $("#nose").click(function(){
+        $("#nosePic").show();
+      });
+      $("#mouth").click(function(){
+        $("#mouthPic").show();
+      });
+      $("#hat").click(function(){
+        $("#hatPic").show();
+      });
+    });
+    </script>
+    <body style="text-align: center">
+        <h1>Lab 07</h1>
+        <button id="head">Show head!</button>
+        <button id="eyes">Show eyes!</button>
+        <button id="nose">Show nose!</button>
+        <button id="mouth">Show mouth!</button>
+        <button id="hat">Show hat!</button><br><br>
+
+        <img id="headPic" src="https://i.imgur.com/KYrigjH.png" alt="head">
+        <img id="eyesPic" src="https://i.imgur.com/ejiQZtJ.png" alt="eyes">
+        <img id="nosePic" src="https://i.imgur.com/BpObKS4.png" alt="nose">
+        <img id="mouthPic" src="https://i.imgur.com/9yRL6d8.png" alt="mouth">
+        <img id="hatPic" src="https://i.imgur.com/MNzJ38y.png" alt="hat">
+    </body>
+</html>

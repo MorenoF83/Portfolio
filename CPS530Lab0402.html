@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <title>CPS530Lab0402</title>
+    <style>
+        body { 
+	        font-family:verdana,arial,helvetica;
+	        font-size:11pt;
+	        color: white;
+	        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	        background: #fff url(https://i.imgur.com/PstIoYY.png) no-repeat center top; 
+	        margin: 0; 
+            padding: 0;
+            text-align: center;
+	    }
+    </style>
+    <body>
+        <h1>Lab04 Activity 2</h1>
+        <form action="http://www2.scs.ryerson.ca/~fmoreno/cgi-bin/lab4_2.pl" method="post">
+            Full Name: <input type="text" name="fullName" /><br /><br />
+            Gender?<br>
+            Male: <input type="radio" name="gender" value="Male">
+            Female: <input type="radio" name="gender" value="Female">
+            Other: <input type="radio" name="gender" value="Other"><br /><br />
+            <p>Favourite Colour?</p>
+            <select name="colour" size="8">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+                <option value="purple">Purple</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select><br /><br />
+            <input type="submit" value="Submit!">
+        </form>
+    </body>
+</html>
